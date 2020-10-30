@@ -1,6 +1,6 @@
-# WorkDayScheduler
+# WorkDayScheduler Project
 
-## Your Task
+## The Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -35,11 +35,9 @@ THEN the saved events persist
 
 <ul>
     <li>
-        ::marker
         <a href = "https://momentjs.com/" rel="momentjs">Moment.js</a>
     </li>
     <li>
-     ::marker
         <a href = "https://getboostrap.com/" rel="boostrap">Boostrap</a>
     </li>
 </ul>
