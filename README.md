@@ -35,8 +35,6 @@ THEN the saved events persist
 
 ## How To Use
 
-![webpage](/Users/bachicha/code/homework5/Screen Shot 2020-10-31 at 1.48.35 PM.png)
-
 <ul>
     <li>The calendar is make to represent a typical workday. In this case, it runs from 8 am to 5 pm</li>
     <li>The day is show in hourly blocks of time</li>
