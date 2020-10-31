@@ -1,5 +1,6 @@
 # WorkDayScheduler Project
 
+
 ## The Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -12,6 +13,7 @@ AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
+
 
 ## Acceptance Criteria
 
@@ -31,13 +33,20 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+## How To Use
+
+<ul>
+    <li>The calendar is make to represent a typical workday. In this case, it runs from 8 am to 5 pm</li>
+    <li>The day is show in hourly blocks of time</li>
+    <li>Each block is color coordinated to show the user whether the event has past, is happening, or is going to happpen (Past = Grey, Present = Red, Future = Green</li>
+    <li>Once the user enters an event, a save button can be clicked to store this event in the calender<li>
+    <li>Events are saved to local storage. When the webpage is refreshed, the events also remain in place</li>
+</ul>
+
+
 ## Acknowledgements
 
 <ul>
-    <li>
-        <a href = "https://momentjs.com/" rel="momentjs">Moment.js</a>
-    </li>
-    <li>
-        <a href = "https://getboostrap.com/" rel="boostrap">Boostrap</a>
-    </li>
+    <li><a href = "https://momentjs.com/" rel="momentjs">Moment.js</a></li>
+    <li><a href = "https://getboostrap.com/" rel="boostrap">Boostrap</a></li>
 </ul>
