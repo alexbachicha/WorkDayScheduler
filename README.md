@@ -21,7 +21,7 @@ View Work Day Scheduler deployed on [GitHub]()
 
 ## Usage
 
-![Screenshot of Demo of Work Day Scheduler](WorkDayScheduler/assets/demo.png)
+![Screenshot of Demo of Work Day Scheduler](assets/demo.png)
 
 The calendar is make to represent a typical workday. In this case, it runs from 8 am to 5 pm 
 
