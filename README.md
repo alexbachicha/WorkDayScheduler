@@ -1,5 +1,6 @@
 # WorkDayScheduler Project
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
 ![MIT license](https://img.shields.io/badge/license-MIT-success)
 
 ## Description
@@ -10,7 +11,7 @@ To create a simple calendar application that allows a user to save events for ea
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
+* [Technology Used](#technologyused)
 * [License](#license)
 
 ## Installation 
@@ -29,9 +30,7 @@ SO THAT I can manage my time effectively
 - Once the user enters an event, a save button can be clicked to store this event in the calender
 - Events are saved to local storage. When the webpage is refreshed, the events also remain in place
 
-## Credits
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](code_of_conduct.md)
+## Technology Used
 
 * [Moment.js](https://momentjs.com/)
 * [Bootstrap](https://getboostrap.com)
