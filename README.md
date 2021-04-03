@@ -35,6 +35,7 @@ Third party assets include
 
 * [Moment.js](https://momentjs.com/)
 * [Bootstrap](https://getboostrap.com)
+* [FontAwesome](https://fontawesome.com/)
 
 ## License
 
