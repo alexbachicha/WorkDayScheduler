@@ -23,7 +23,7 @@ View Work Day Scheduler deployed on [GitHub]()
 
 The calendar is make to represent a typical workday. In this case, it runs from 8 am to 5 pm 
 
-Each block is color coordinated to show the user whether the event has past, is happening, or is going to happpen (Past = Grey, Present = Red, Future = Green
+Each block is color coordinated to show the user whether the event has past, is happening, or is going to happpen (Past = Grey, Present = Red, Future = Green)
 
 Once the user enters an event, a save button can be clicked to store this event in the calender
 
