@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     // Listens for saveBtn click listener (user input and time stamp)
     $(".saveBtn").on("click", function () {
         // Gets nearby values
@@ -7,8 +7,37 @@ $(document).ready(function () {
 
         // Save items in local storage
         localStorage.setItem(time, value);
-    })
-    
+    });
+
+    function hourTracker() {
+        // Get current number of hours
+        var currentHour = moment().hour();
+
+        // Loop over time blocks
+        $(".time-block").each(function () {
+            var blockHour = parseInt($(this).attr("id").split("hour")[1]);
+
+            // Check if we have moved past this time
+            if (blockHour < currentHour) {
+                $(this).addClass("past");
+            }
+            else if (blockHour === currentHour) {
+                $(this).removeClass("past");
+                $(this).addClass("present");
+            }
+            else {
+                $(this).removeClass("present");
+                $(this).removeClass("past");
+                $(this).addClass("future");
+            }
+        })
+    }
+
+    hourTracker();
+
+    // Set up interval to check if current time needs to be updated
+    var interval = setInterval(hourTracker, 15000);
+
     // Loads saved data from localStorage
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
@@ -20,33 +49,6 @@ $(document).ready(function () {
     $("#hour16 .description").val(localStorage.getItem("hour16"));
     $("#hour17 .description").val(localStorage.getItem("hour17"));
 
-
-    function hourTracker() {
-        // get current number of hours
-        var currentHour = moment().hour();
-
-        // loop over time blocks
-        $(".time-block").each(function () {
-            var blockHour = parseInt($(this).attr("id").split("hour")[1]);
-            console.log( blockHour, currentHour)
-
-            // check if we have moved past this time
-            if (blockHour < currentHour) {
-                $(this).addClass("past");
-                $(this).removeClass("future");
-                $(this).removeClass("present");
-            }
-            else if (blockHour === currentHour) {
-                $(this).removeClass("past");
-                $(this).addClass("present");
-                $(this).removeClass("future");
-            }
-            else {
-                $(this).removeClass("present");
-                $(this).removeClass("past");
-                $(this).addClass("future");
-            }
-        })
-    }
-    hourTracker();
-})
+    // Display current day on page
+    $("#currentDay").text(moment().format("dddd, MMMM Do"));
+});
