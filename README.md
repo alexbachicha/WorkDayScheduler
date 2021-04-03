@@ -12,7 +12,7 @@ The Work Day Scheduler is a calendar application that allows a user to save even
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Technology Used](#technologyused)
+* [Credits](#credits)
 * [License](#license)
 
 ## Installation 
@@ -29,7 +29,9 @@ Once the user enters an event, a save button can be clicked to store this event 
 
 Events are saved to local storage. When the webpage is refreshed, the events also remain in place
 
-## Technology Used
+## Credits
+
+Third party assets include
 
 * [Moment.js](https://momentjs.com/)
 * [Bootstrap](https://getboostrap.com)
